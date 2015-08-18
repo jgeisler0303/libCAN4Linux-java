@@ -29,8 +29,8 @@ JNI_CLASSES=can4linux.CAN4LinuxAdapter
 JAVAC_FLAGS=-g -Xlint:all
 CXXFLAGS=-I./include -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions \
 -fstack-protector --param=ssp-buffer-size=4 -fPIC -Wno-unused-parameter \
--pedantic -D_REENTRANT -D_GNU_SOURCE \
--std=c++11 \
+-pedantic -Wno-long-long -D_REENTRANT -D_GNU_SOURCE \
+-std=gnu++98 \
 $(JAVA_INCLUDES)
 
 SONAME=jni_can4linux
