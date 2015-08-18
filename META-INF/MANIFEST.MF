@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: libCAN4Linux-java
+Bundle-SymbolicName: libCAN4Linux-java
+Bundle-Description: CAN4Linux JNI wrapper
+Bundle-Version: 0.1.0
+Export-Package: can4linux
+Import-Package: can4linux
+Main-Class: can4linux.CAN4LinuxTest
